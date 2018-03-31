@@ -1,0 +1,30 @@
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eee;
+}  
+.form-palindrome {
+    max-width: 400px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-palindrome .form-palindrome-heading {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.form-palindrome .form-control {
+    padding: 10px;
+    font-size: 16px;
+}
+.form-palindrome .form-control:focus {
+    z-index: 2;
+}
+.form-palindrome .alert, 
+.form-palindrome button[type="button"] {
+    margin-top: 20px;
+}
+.form-palindrome .error-message {
+    margin-top: 5px;
+    text-align: center;
+    color: red;
+}
