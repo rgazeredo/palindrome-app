@@ -1,5 +1,5 @@
 // Declare the base url
-const BASE_URL = 'http://localhost:3000';
+const BASE_URL = 'http://localhost:8080';
 
 // Declares the headers settings
 const headers = {
